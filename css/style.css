@@ -1,0 +1,126 @@
+p, html, body{
+    margin: 0;
+}
+
+main {
+    position: absolute;
+    top: 51px;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+#top {
+    position: relative;
+    height: 100vh;
+}
+
+.header_name {
+    position: absolute;
+    font-size: 4em;
+    color: #fabeaf;
+    transform-origin: 0 0;
+    transform: rotate(-34deg);
+    left: 18%;
+    top: 60%;
+}
+
+.header_span {
+    position: absolute;
+    font-size: 1.5em;
+    color: #fabeaf;
+    transform-origin: 0 0;
+    transform: rotate(-34deg);
+    left: 25%;
+    top: 70%;
+}
+
+.background_image {
+    width: 100%;
+    top: 0px;
+    height: auto;
+    min-height: 80vh;
+    background-image: url(../images/background_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image_position {
+    position: relative;
+    left: 60%;
+    top: 16%;
+    border-radius: 30%;
+    width: 200px;
+    height: auto;
+}
+
+.navbar {
+    margin: 0;
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: hsl(180, 80%, 90%);
+    overflow: hidden;
+}
+
+.navbar a{
+    float: right;
+    display: block;
+    color: #9a4c2b;
+    font-size: 18px;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    transition: background-color .2s ease-in
+}
+
+.navbar a:hover{
+    background-color: #fabeaf;
+    transition: background-color .2s ease-in
+}
+
+.skill_wrapper{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    border-radius: 15px;
+    background-color: hsl(180, 80%, 90%);
+    margin-bottom: 20px;
+}
+
+.align_skills {
+    flex-basis: 50%;
+    padding-left: 5%;
+}
+
+.skill_wrapper h3 {
+    text-align: center;
+}
+
+ul {
+    display: table;
+}
+
+.about_contact_wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.about_wrapper{
+    margin-left: 10%;
+    flex-basis: 66%;
+    border-radius: 15px;
+    background-color: hsl(180, 80%, 90%);
+    padding: 5px 8px 10px 15px;
+    margin-bottom: 100px;
+}
+
+.contact_wrapper{
+    flex-basis: auto;
+    margin-left: 2%;
+    height: 100px;
+    border-radius: 100px;
+    background-color: hsl(180, 80%, 90%);
+    padding: 5px 8px 10px 15px;
+    text-align: center;
+}
+
